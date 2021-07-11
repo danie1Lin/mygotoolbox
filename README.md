@@ -1,7 +1,13 @@
 # mygotoolbox
 experimental golang cmd line tool box 
 
-Usage:
+## Install
+```
+go install github.com/daniel840829/mygotoolbox
+```
+
+## Usage
+```
   mygotoolbox [command]
 
 Available Commands:
@@ -13,3 +19,4 @@ Flags:
       --config string   config file (default is $HOME/.mygotoolbox.yaml)
   -h, --help            help for mygotoolbox
   -t, --toggle          Help message for toggle
+```
